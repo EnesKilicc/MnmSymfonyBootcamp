@@ -1,0 +1,8 @@
+Programlamada değişken isimleri verirken kelimeler arasında boşluk kullanılmaz. Bu yüzden değişkenleri isimlendirmek için farklı yöntemler ortaya çıkmıştır. Bunlardan en sık kullanılanlarından ikisi Pascal Case ve Camel Case'dir.
+Pascal Case ve Camel Case birbirlerine çok benzerler. İkisinde de kelimeler bitişik yazılır.
+Aralarındaki tek fark Camel Case'de ilk kelimenin ilk harfi küçük yazılır, diğer kelimeler büyük harfle başlar. Pascal Case'de ise tüm kelimelerin ilk harfi büyük harfle yazılır.
+
+Örnek;
+Değişkenimizin adını Tekerlek Sayısı olarak yazmak isteyelim.
+Pascal Case'de değişkeni   TekerlekSayisi olarak tanımlarız.
+Camel Case'de ise değişkeni  tekerlekSayisi olarak tanımlarız.

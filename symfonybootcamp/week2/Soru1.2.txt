@@ -1,0 +1,7 @@
+MapReduce  tanım olarak büyük verilerin işlendiği programlama yapısı olarak açıklanabilir.
+Örnek olarak elimizde bir bankanın içindeki müşterilerin verileri olduğunu düşünelim ve bu veri üzerinde bir SQL sorgusu yapmak isteyelim.
+Bu kadar büyük veri üzerinde klasik SQL sorgusu kullanarak analiz yapmak bir hayli uzun zaman alır.
+MapReduce Map(Mapping) ve Reduce(Reducing) iki ayrı işlemdir. Bu işlemler bir arada çalışarak veri analizinin kolaylaştırılmasını sağlayan metodlardır.
+Map ile listedeki her bir elemana tek tek bir kuralı uygular
+Reduce, Map ile elde edilen sonuçları belli bir sistematik ile analiz ederek birleştirir.
+Yaptığı analiz sonunda da bir değer döndürür.
