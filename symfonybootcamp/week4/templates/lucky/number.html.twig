@@ -1,0 +1,41 @@
+<html>
+<head>
+<link href="/lucky/css/stylesheets1.css" rel="stylesheet">
+
+
+</head>
+<body>
+<h1>HER GÜN 1 YENİ BİLGİ</h1>
+
+    {% if text | lower  =='facebook' %}
+        <img src="{{ asset('lucky') }}/img/1.png">
+    <h2 class="topic">Facebook Inc., Menlo Park, Kaliforniya merkezli bir Amerikan sosyal medya ve medya holdingidir.
+        Mark Zuckerberg, oda arkadaşları ve Harvard Koleji'ndeki Eduardo Saverin, Andrew McCollum, Dustin Moskovitz ve Chris Hughes ile birlikte kuruldu.
+        Facebook, dünyanın en değerli şirketlerinden biridir.</h2>
+        {% elseif text | lower == 'telegram' %}
+            <img src="{{ asset('lucky') }}/img/2.png">
+    <h2>
+
+        Telegram, çoklu platform desteği sunan, güvenli anlık mesajlaşma servisidir. Rus programcısı Pavel Durov tarafından yaratılmıştır.
+        Telegram istemcileri hem mobil hem de masaüstü sistemleri için mevcuttur. Ağustos 2013'te yayın hayatına başlamıştır.
+    </h2>
+
+        {% elseif text | lower  =='twitter' %}
+            <img src="{{ asset('lucky') }}/img/3.png">
+            <h2 class="topic">
+                Twitter, kullanıcıların "tweet" olarak bilinen mesajları yayımladığı ve birbirleriyle etkileşimde bulunduğu Amerikan bir mikroblog ve sosyal ağ hizmetidir.
+            </h2>
+        {% elseif text | lower =='youtube' %}
+            <img src="{{ asset('lucky') }}/img/4.png">
+            <h2 class="topic">
+                YouTube, video barındırma web sitesi. Merkezi Amerika Birleşik Devletleri'ndeki San Bruno, Kaliforniya şehrindedir.
+                15 Şubat 2005'te 3 eski PayPal çalışanı tarafından kurulmuştur.
+                Kasım 2006'da Google tarafından 1,65 milyar dolara satın alınmıştır.
+            </h2>
+            {% else %}
+            <h2>{{ text }}  İLE İLGİLİ BİLGİ ŞİMDİLİK MEVCUT DEĞİL :(</h2>
+{% endif %}
+<script type="text/javascript" src="/lucky/js/welcome.js"></script>
+</body>
+</html>
+
